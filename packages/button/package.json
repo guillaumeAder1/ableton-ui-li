@@ -1,6 +1,6 @@
 {
-  "name": "button",
-  "version": "1.0.0",
+  "name": "@abl/button",
+  "version": "0.0.0",
   "main": "lib/index.js",
   "module": "src/index.js",
   "dependencies": {

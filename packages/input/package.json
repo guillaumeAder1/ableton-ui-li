@@ -1,6 +1,6 @@
 {
-  "name": "input",
-  "version": "1.0.0",
+  "name": "@abl/input",
+  "version": "0.0.0",
   "main": "lib/index.js",
   "module": "src/index.js",
   "dependencies": {

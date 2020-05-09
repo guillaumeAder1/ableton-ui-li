@@ -1,12 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 
-const Button = () => {
-    return (<div 
-        onClick={ () => alert('ok') }
-        style={style.button}>TOTTO</div>)
-}
-const style = styled.button`
+const Button = styled.button`
     background: red;
     color: #fff;
     border-radius: 4px;
