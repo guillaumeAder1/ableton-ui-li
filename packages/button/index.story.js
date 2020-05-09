@@ -1,7 +1,10 @@
-import React from 'react';
-import {storiesOf} from '@storybook/react';
+import React from 'react'
+import { storiesOf } from '@storybook/react'
 
-import Button from '.';
+import Button from '.'
 
+const t = {
+  prosp: 'tot'
+}
 storiesOf('Button', module)
-  .add('default', () => <Button label="yoip">text to pass ok </Button>);
+  .add('default', () => <Button label="yoip">text to pass ok </Button>)

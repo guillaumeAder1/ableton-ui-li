@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from 'react'
+import styled from 'styled-components'
 // import StyledButton from './style'
 
 const StyledButton = styled.button`
@@ -10,12 +10,11 @@ const StyledButton = styled.button`
     font-size: 1rem;
     font-weight: 300;
     padding: 9px 36px;
-`;
-
+`
 
 const Button = ({ children, ...props }) => {
-    return (
-        <StyledButton {...props}>{children}</StyledButton>
-    );
-};
-export default Button;
+  return (
+    <StyledButton {...props}>{children}</StyledButton>
+  )
+}
+export default Button
