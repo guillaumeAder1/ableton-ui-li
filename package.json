@@ -11,6 +11,8 @@
     "babel-jest": "^26.0.1",
     "babel-loader": "^8.1.0",
     "babel-plugin-styled-components": "^1.10.7",
+    "eslint": "^7.0.0",
+    "eslint-plugin-react": "^7.19.0",
     "jest": "^26.0.1",
     "jest-haste-map": "^26.0.1",
     "jest-resolve": "^26.0.1",
@@ -25,6 +27,7 @@
   "scripts": {
     "coverage": "jest --coverage",
     "unit": "jest",
+    "lint": "eslint packages/* --ext .js",
     "dev": "start-storybook -p 5555",
     "bootstrap": "lerna bootstrap --use-workspaces",
     "build": "lerna exec --parallel -- babel --root-mode upward src -d lib --ignore **/*.story.js,**/*.spec.js"
