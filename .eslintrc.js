@@ -1,7 +1,8 @@
 module.exports = {
   env: {
     browser: true,
-    es6: true
+    es6: true,
+    jest: true
   },
   extends: [
     'plugin:react/recommended',
@@ -30,9 +31,9 @@ module.exports = {
           'error',
           'warn',
           'info',
-          'debug',
-        ],
-      },
+          'debug'
+        ]
+      }
     ],
     // https://eslint.org/docs/rules/no-param-reassign#disallow-reassignment-of-function-parameters-no-param-reassign
     'no-param-reassign': ['error', {
@@ -46,8 +47,8 @@ module.exports = {
         'response', // for Axios responses
         'payload', // for Axios
         'row', // for row tables
-        'state', // for Vuex
-      ],
+        'state' // for Vuex
+      ]
     }],
     'no-prototype-builtins': 'off',
     'prefer-default-export': 'off',
@@ -58,13 +59,12 @@ module.exports = {
     'arrow-parens': [2, 'as-needed'],
     'prefer-const': ['error', {
       destructuring: 'any',
-      ignoreReadBeforeAssign: false,
+      ignoreReadBeforeAssign: false
     }],
     // https://github.com/benmosher/eslint-plugin-import
     'import/prefer-default-export': 'off',
     'import/extensions': 'off',
     'import/no-unresolved': 'off',
-    'import/no-extraneous-dependencies': 'off',
+    'import/no-extraneous-dependencies': 'off'
   }
 }
-
