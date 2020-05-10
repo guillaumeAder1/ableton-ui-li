@@ -23,6 +23,7 @@ module.exports = {
     'react'
   ],
   rules: {
+    semi: ['always'],
     'max-len': ['error', { code: 140 }],
     'no-console': [
       'error',

@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled from "@emotion/styled";
 // import StyledButton from './style'
 
 const StyledButton = styled.button`
@@ -14,7 +14,10 @@ const StyledButton = styled.button`
 
 const Button = ({ children, ...props }) => {
   return (
-    <StyledButton {...props}>{ children }</StyledButton>
+    <div>
+      <StyledButton {...props}>{ children }</StyledButton>
+    </div>
   )
 }
+
 export default Button
