@@ -13,6 +13,7 @@
     "babel-eslint": "^9.0.0",
     "babel-jest": "^26.0.1",
     "babel-loader": "^8.1.0",
+    "babel-plugin-emotion": "^10.0.33",
     "babel-plugin-styled-components": "^1.10.7",
     "eslint": "^5.16.0",
     "eslint-config-standard": "^14.1.1",

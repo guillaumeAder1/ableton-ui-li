@@ -1,18 +1,15 @@
 import React from 'react'
 import styled from "@emotion/styled";
+import { font, primaryColors, shape } from "@abl/theme";
+
 // import StyledButton from './style'
 
 const StyledButton = styled.button`
-    background: blue;
-    color: #fff;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: 300;
-    padding: 9px 36px;
+  ${font}; ${primaryColors}; ${shape};
 `
 
 const Button = ({ children, ...props }) => {
+  console.warn(primaryColors);
   return (
     <div>
       <StyledButton {...props}>{ children }</StyledButton>
